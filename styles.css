@@ -43,8 +43,8 @@ a{
     background-color: blueviolet;
 }
 
-#conteneur1{
-    
+#conteneur{
+    clear: both;
     display: flex;
     justify-content: space-between;
 }
