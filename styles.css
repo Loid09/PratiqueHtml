@@ -11,20 +11,51 @@
 }
 #search{
     float: right;
+} 
+header{
+    
+    position: relative;
+    display: inline;
 }
 body{
-    /* margin-left: 50px;
-    margin-right: 50px; */
+    
     background-color: lightgray;
     
 }
-footer{
+/* footer{
     position:absolute;
     bottom:0;
     width:100%;
     background-color: black;
     text-align: center;
     color: white;
+} */
+a{
+    text-decoration: none;
+}
+.nav{
+    float: left;
+    
+}
+#liste{
+    border: 1px solid blueviolet;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+#conteneur1{
+    
+    display: flex;
+    justify-content: space-between;
+}
+#img{
+    width: 90%;
+    height: 200px;
+}
+
+
+#bord{
+    border-right: 1px solid;
 }
 
 
