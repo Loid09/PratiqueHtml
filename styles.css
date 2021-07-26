@@ -1,0 +1,30 @@
+#glo
+{
+     font-weight: bold;
+    font-size: xx-large; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#pt
+{
+    font-size: small;
+    float: left;
+}
+#search{
+    float: right;
+}
+body{
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    background-color: lightgray;
+    
+}
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
