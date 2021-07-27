@@ -6,13 +6,13 @@
 }
 #pt
 {
-    margin-left: 50px;
+    margin-left: 130px;
     font-size: small;
     float: left;
 }
 #search{
     float: right;
-    margin-right: 57px;
+    margin-right: 133px;
 } 
 
 header{
@@ -30,11 +30,11 @@ footer{
     clear: both;
     /* position:absolute; */
     bottom:0;
-    width:95%;
+    width: 83%;
     background-color: black;
     text-align: center;
     color: white;
-    margin-left: 50px;
+    margin-left: 110px;
     
 }
 a{
@@ -63,7 +63,7 @@ a{
 }
 .ee2{
    text-align: left;
-    padding-right: 150px;
+    padding-right: 140px;
 }
 .ee1{
     text-align: left;
@@ -98,7 +98,8 @@ section{
 }
 
 #conteneur{
-    margin-left: 50px;
+    margin-left: 130px;
+    margin-right: 90px;
     clear: both;
     display: flex;
     justify-content: space-between;
@@ -109,10 +110,11 @@ section{
     height: 200px;
 }
 #con{
-    margin-left: 50px;
+    margin-left: 120px;
+    margin-right: 90px;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding-right: 20px;
 }
 
 #bord{
