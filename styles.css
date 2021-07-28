@@ -59,7 +59,7 @@ a{
 .v{
     /* padding-left: 5px; */
     width: 100%;
-    margin-top: 30px;
+    margin-top: 36px;
     
 }
 .ee2{
@@ -69,10 +69,7 @@ a{
 .ee1{
     text-align: left;
 }
-#ll{
-    height: 50px;
-    padding-bottom: 15px;
-}
+
 #tf{
     width: 100%;
     height: 500px;
@@ -122,6 +119,42 @@ section{
     /* border-right: 2px solid; */
     padding: 70px;
     color: white;
+}
+@media all and (max-width: 1024px)
+{
+    body{
+        width: 100%;
+        margin: auto;
+    }
+
+    #conteneur
+    {
+        flex-direction: column;
+    }
+    #search{
+        clear: both;
+        text-align: center;
+    }
+    #con
+    {
+        flex-direction: column;
+    }
+    #pt{
+        font-size: 0.9em;
+    }
+    .lg1{
+        width: auto;
+        flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    #glo{
+        font-size: 3em;
+    }
 }
 
 
