@@ -23,7 +23,7 @@ header{
 }
 body{
     
-    background-color: lightgray;
+    background-color: #BBD2E1;
     margin: 30px;
     
 }
@@ -31,11 +31,11 @@ footer{
     clear: both;
     /* position:absolute; */
     bottom:0;
-    width: 83%;
+    width: 100%;
     background-color: black;
     text-align: center;
     color: white;
-    margin-left: 110px;
+    margin-left: 10px;
     
 }
 a{
@@ -60,6 +60,7 @@ a{
     /* padding-left: 5px; */
     width: 100%;
     margin-top: 36px;
+    border-radius: 1px solid #26C4EC;
     
 }
 .ee2{
@@ -86,26 +87,48 @@ section{
     text-align: left;
 }
 #liste{
-    border: 3px solid blue;
-    border-radius: 1px;
+    border: 3px solid #26C4EC;
     height: 50px;
     padding-top:10px ;
     padding-bottom:10px ;
-    background-color: blue;
+    background-color: #26C4EC;
     
 }
 
-#conteneur{
+/* #conteneur{
     margin-left: 130px;
     margin-right: 90px;
     clear: both;
     display: flex;
     justify-content: space-between;
     padding: 10px;;
-}
+} */
 #img{
     width: 90%;
     height: 200px;
+}
+th{
+    font-size: 1.3em;
+}
+table{
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+td{
+    width: 20%;
+}
+.td{
+    width: 50%;
+    text-align: left;
+}
+img{
+    width: 100%;
+}
+
+.input{
+    color: white;
+    background-color: #26C4EC;
 }
 #con{
     margin-left: 120px;
